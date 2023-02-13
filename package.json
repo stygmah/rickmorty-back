@@ -1,0 +1,24 @@
+{
+  "name": "mad-collective-rickmorty-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongomock": "^0.1.2",
+    "mongoose": "^6.9.1",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
